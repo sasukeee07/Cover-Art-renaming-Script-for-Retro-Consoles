@@ -19,10 +19,15 @@ Create a folder with this structure:
 ```
 
 Main Folder/
+
 ├── Folder A → Your `.gba` ROM files
+
 ├── Folder B → Your cover images (`.jpg`, `.png`, etc.)
+
 ├── Folder C → Leave empty (used for unmatched logs)
+
 └── gba\_renamer\_script.py → The Python script
+
 
 ````
 
@@ -35,10 +40,10 @@ Main Folder/
    - Place all your `.gba` ROMs in **Folder A**
    - Place all cover images in **Folder B**
    - Leave **Folder C** empty
-   - Place the `gba_renamer_script.py` file in the main folder
+   - Place the `Rename_ROM_files.py` file in the main folder
 
 3. **Edit the Script**:
-   - Open `gba_renamer_script.py` in any text editor.
+   - Open `Rename_ROM_files.py` in any text editor.
    - Find and update the folder paths:
 
      ```python
@@ -57,7 +62,7 @@ Main Folder/
 - **Option 2**: Run it via terminal or command line:
 
   ```bash
-  python gba_renamer_script.py
+  python Rename_ROM_files.py
 ````
 
 ---
