@@ -11,10 +11,14 @@ You need 3 folders:
 1.	Folder A (ROMs) – Contains your .gba game ROMs (e.g., 0001 Pokemon Red.gba)
 2.	Folder B (Covers) – Contains the matching cover images (e.g., pokemon red.jpg)
 3.	Folder C  (Output) – This will store a text file listing any unmatched cover images that couldn’t be renamed.
+
+
 🔁 What the Script Does
 •	It compares each image name in Folder B with ROM names in Folder A(ignoring case and file extensions).
 •	If a close match is found, the image is renamed to match the ROM filename, but with the image file extension.
 •	Images that don’t match any ROM are logged in a .txt file inside Folder C.
+
+
 ✅ Example
 Input:
 •	Folder A: 0001 Pokemon Red.gba
@@ -37,6 +41,7 @@ o	Folder B → Paste your cover images here
 Example: pokemon red.jpg
 o	Folder C → Leave this empty; this is where unmatched image names will be saved in a .txt file
 o	Python Script → Paste the script file here
+
 Your folder should now look like this:
 Main Folder/
 ├── Folder A (ROMs)
