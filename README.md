@@ -1,8 +1,5 @@
 # Cover-Art-renaming-Script-for-Retro-Consoles
-A simple Python script that renames  cover images to match ROM filenames using fuzzy matching. Perfect for organizing game libraries and frontends.
-
-Great! Here's a clean and simplified **GitHub `README.md`** version you can copy and paste directly into your repo:
-
+This script helps rename GBA cover images so they exactly match the ROM filenames — required for cover art to work correctly in Garlic OS (e.g., on Anbernic RG35XX). Just drop your files into folders, run the script, and you're done!
 ---
 
 ```markdown
